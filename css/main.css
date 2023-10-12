@@ -110,7 +110,7 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
 html {
 	font-size: var(--base-font-size);	
 	color: var(--main-text-color);
-	background-color: var(--main-bg-color);
+	background: var(--main-bg-color);
   scroll-behavior: smooth;
 }
 
@@ -172,6 +172,10 @@ p {
 .subtitle {
 	color: var(--subdued-text-color);
 	font-style: italic;
+}
+
+.underlined {
+  text-decoration: underline;
 }
 
 section {
